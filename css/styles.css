@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin:50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #F38181;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #F38181;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #95E1D3;
+}
+
+a{
+    color: #95E1D3;
+}
+
+
+.top-container {
+    background-color: #EAFFD0;
+    position: relative;
+    padding-top: 100px;
+    z-index: -1;
+}
+
+.bottom-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px
+}
+
+.top-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer-image{
+    width: 25%;
+    float:left;
+    margin-right: 30px;
+
+}
+
+.run-image{
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+}
+
+.nav-header{
+    position: fixed;
+    padding: 10px;
+    background-color: #95E1D3;
+    z-index: 1;
+    width: 100%;
+}
+
+.header-text{
+    color: #F38181;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.header-image{
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.header-text-box{
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
